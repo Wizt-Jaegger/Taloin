@@ -1,9 +1,14 @@
-import { createContext, useState, useContext } from "react";
+import { createContext, useState, useEffect, useContext } from "react";
 
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-    const [language, setLanguage] = useState("es"); // Default: Spanish
+    const getDefaultLanguage = () => {
+        const browserLanguage = navigator.language || navigator.userLanguage;
+        return browserLanguage.startsWith("es") ? "es" : "en";
+    };
+
+    const [language, setLanguage] = useState(getDefaultLanguage);
 
     const toggleLanguage = () => {
         setLanguage((prevLang) => (prevLang === "es" ? "en" : "es"));
