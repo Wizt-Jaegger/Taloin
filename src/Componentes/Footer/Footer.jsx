@@ -95,19 +95,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Footer Social */}
-            <div className="footer-social">
-                <p className="normalText">
-                    {language === "es" ? "¿Te gustó? Mira lo que hicieron nuestros colegas" : "Did you like it? Watch what our classmates designed"}
-                </p>
-                <p className="shortText">
-                    {language === "es" ? "También visita: " : "Also check: "}
-                </p>
-                <a href="https://www.tiendatecnologia.x10.mx/" target="_blank" rel="noopener noreferrer">
-                    <img src={logoTechPal} alt="TechPal Logo" />
-                </a>
-            </div>
         </footer>
     );
 };
