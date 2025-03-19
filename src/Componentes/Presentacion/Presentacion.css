@@ -19,6 +19,12 @@
     
     max-width: 800px;
 }
+.presentacion-texto h1 {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
 .presentacion-texto p{
     max-width: 700px;
