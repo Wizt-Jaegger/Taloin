@@ -36,8 +36,8 @@ const App = () => {
                 />
                 <Clientes />
                 <Titulo 
-                    subTitulo={language === "es" ? "Tecnologias" : "Technologies"}
-                    titulo={language === "es" ? "Tecnologias que utilizamos" : "Technologies we use"}
+                    subTitulo={language === "es" ? "Tecnologías" : "Technologies"}
+                    titulo={language === "es" ? "Tecnologías que utilizamos" : "Technologies we use"}
                 />
                 <Galeria />
                 <Titulo 

@@ -100,7 +100,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link to="galeria" smooth={true} offset={-260} duration={500}>
-                                    {language === "es" ? "Tecnologias" : "Technologies"}
+                                    {language === "es" ? "Tecnologías" : "Technologies"}
                                 </Link>
                             </li>
                             <li>
