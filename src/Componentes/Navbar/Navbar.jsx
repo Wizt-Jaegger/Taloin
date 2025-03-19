@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Navbar.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import menu_icon from '../../assets/menu-icon.png';
 import tache_icon from '../../assets/tache.png';
 import dropdown_icon from '../../assets/dropdown.png'; // Importa el icono de dropdown

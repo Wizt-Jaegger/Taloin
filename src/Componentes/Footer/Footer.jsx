@@ -1,5 +1,5 @@
 import React from 'react';
-import logoFooter from "../../assets/logo.png";
+import logoFooter from "../../assets/logo.svg";
 import "./Footer.css";
 import { Link } from "react-scroll";
 import { useLanguage } from "../../LanguageContext"; // Import context

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Presentacion.css';
 import flecha_oscura from '../../assets/dark-arrow.png';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.svg';
 import presentacion1 from '../../assets/presentacion1.png';
 import presentacion2 from '../../assets/presentacion2.png';
 import presentacion3 from '../../assets/presentacion3.png';
