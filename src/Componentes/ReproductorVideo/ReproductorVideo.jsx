@@ -14,7 +14,7 @@ const ReproductorVideo = ({playState, setPlayState}) =>{
 
     return(
         <div className={`reproductor-video ${playState?'':'hide'}`} ref={reproductor} onClick={cerrarReproductor}>
-            <video src={video} autoPlay muted controls></video>
+            <video src={video} autoPlay controls></video>
         </div>
     )
 }
