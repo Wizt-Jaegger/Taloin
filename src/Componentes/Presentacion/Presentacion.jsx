@@ -34,11 +34,11 @@ const Presentacion = () => {
         >
             <div className='presentacion-texto'>
                 <img src={logo} alt="Logo" style={{ width: '80%', height: 'auto' }} />
-                <h1>
+                <p>
                     {language === "es"
                             ? "Tu progreso a solo un paso, Confiale tu proyecto a taloin!, tu aliado en desarrollo y mantenimiento de software y hardware!"
                             : "Your next step towards the future of your project!, your partner in software and hardware development and maintenance!"}
-                </h1>
+                </p>
                 
                 <p>
                     <Link
