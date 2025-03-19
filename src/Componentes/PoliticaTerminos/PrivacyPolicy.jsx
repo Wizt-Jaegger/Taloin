@@ -1,9 +1,9 @@
 import React from 'react';
-import { useLanguage } from "../../LanguageContext"; // Importar el contexto de lenguaje
-import styled from 'styled-components'; // Importar styled-components
+import { useLanguage } from "../../LanguageContext";
+import styled from 'styled-components';
 
 const PrivacyPolicy = () => {
-    const { language } = useLanguage(); // Usar el contexto de lenguaje
+    const { language } = useLanguage();
 
     return (
         <PrivacyContainer>
@@ -57,20 +57,39 @@ const PrivacyPolicy = () => {
 // Estilos con styled-components
 const PrivacyContainer = styled.div`
     margin: 20px;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #333;
     
-    h1, h2 {
-        margin-bottom: 10px;
-        color: #333;
+    h1 {
+        text-align: center;
+        color: #132d46;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        color: #01c38e;
+        margin-bottom: 15px;
+        font-size: 1.8rem;
     }
 
     p {
-        margin-bottom: 15px;
         color: #666;
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+    }
+
+    a {
+        color: #01c38e;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
     }
 `;
 
