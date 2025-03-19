@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import './ReproductorVideo.css';
-import video from '../../assets/render-jardin.mp4';
+import video from '../../assets/render-taloin.mp4';
 
 const ReproductorVideo = ({playState, setPlayState}) =>{
 
