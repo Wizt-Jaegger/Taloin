@@ -2,7 +2,6 @@ import React from 'react';
 import logoFooter from "../../assets/logo.png";
 import "./Footer.css";
 import { Link } from "react-scroll";
-import logoTechPal from "../../assets/logoTechPaltxt.png";
 import { useLanguage } from "../../LanguageContext"; // Import context
 
 const Footer = () => {

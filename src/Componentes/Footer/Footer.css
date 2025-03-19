@@ -76,7 +76,7 @@
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: var(--text-color);
+	color: #01c38e;
 	transition: all 0.5s ease;
 }
 .footer-links a {
