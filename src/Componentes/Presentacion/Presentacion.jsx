@@ -34,12 +34,14 @@ const Presentacion = () => {
         >
             <div className='presentacion-texto'>
                 <img src={logo} alt="Logo" style={{ width: '80%', height: 'auto' }} />
+                <h1>
+                    {language === "es" ? "Programando a tu medida" : "Programming tailored for you"}
+                </h1>
                 <p>
                     {language === "es"
-                            ? "Tu progreso a solo un paso, Confiale tu proyecto a taloin!, tu aliado en desarrollo y mantenimiento de software y hardware!"
-                            : "Your next step towards the future of your project!, your partner in software and hardware development and maintenance!"}
+                        ? "Tu progreso a solo un paso, Confiale tu proyecto a Taloin!, tu aliado en desarrollo y mantenimiento de software y hardware!"
+                        : "Your next step towards the future of your project! Your partner in software and hardware development and maintenance!"}
                 </p>
-                
                 <p>
                     <Link
                         to="planes"
@@ -53,6 +55,7 @@ const Presentacion = () => {
                     </Link>
                 </p>
             </div>
+
         </div>
     );
 }
