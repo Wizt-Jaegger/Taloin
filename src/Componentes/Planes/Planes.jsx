@@ -3,9 +3,9 @@ import './Planes.css';
 import plan_1 from '../../assets/program-1.png';
 import plan_2 from '../../assets/program-2.png';
 import plan_3 from '../../assets/program-3.png';
-import plan_icon_1 from '../../assets/program-icon-1.png';
-import plan_icon_2 from '../../assets/program-icon-2.png';
-import plan_icon_3 from '../../assets/program-icon-3.png';
+import plan_icon_1 from '../../assets/program-icon-1.svg';
+import plan_icon_2 from '../../assets/program-icon-2.svg';
+import plan_icon_3 from '../../assets/program-icon-3.svg';
 import { useLanguage } from "../../LanguageContext";
 
 const Planes = () => {
