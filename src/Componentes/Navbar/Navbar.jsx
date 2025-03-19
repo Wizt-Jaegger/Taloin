@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import './Navbar.css';
 import logo from '../../assets/logo.svg';
-import menu_icon from '../../assets/menu-icon.png';
-import tache_icon from '../../assets/tache.png';
-import dropdown_icon from '../../assets/dropdown.png'; // Importa el icono de dropdown
-import closedown_icon from '../../assets/closedown.png'; // Importa el icono de cerrado
+import menu_icon from '../../assets/menu-icon.svg';
+import tache_icon from '../../assets/tache.svg';
+import dropdown_icon from '../../assets/dropdown.svg'; 
+import closedown_icon from '../../assets/closedown.svg'; 
 import { Link } from "react-scroll";
 import { useLanguage } from "../../LanguageContext"; 
 
