@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import './Contacto.css';
-import msg_icon from '../../assets/msg-icon.png';
-import mail_icon from '../../assets/mail-icon.png';
-import phone_icon from '../../assets/phone-icon.png';
-import location_icon from '../../assets/location-icon.png';
+import msg_icon from '../../assets/msg-icon.svg';
+import mail_icon from '../../assets/mail-icon.svg';
+import phone_icon from '../../assets/phone-icon.svg';
+import location_icon from '../../assets/location-icon.svg';
 import { useLanguage } from "../../LanguageContext";
 
 const Contacto = () => {

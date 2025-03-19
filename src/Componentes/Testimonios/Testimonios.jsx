@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import './Testimonios.css';
-import siguiente_icon from '../../assets/next-icon.png';
-import atras_icon from '../../assets/back-icon.png';
+import siguiente_icon from '../../assets/next-icon.svg';
+import atras_icon from '../../assets/back-icon.svg';
 import user_1 from '../../assets/user-1.png';
 import user_2 from '../../assets/user-2.png';
 import user_3 from '../../assets/user-3.png';

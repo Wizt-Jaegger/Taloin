@@ -1,7 +1,7 @@
 import React from "react";
 import './AcercaDe.css';
 import acercaDe_img from '../../assets/about.png';
-import play_icon from '../../assets/play-icon.png';
+import play_icon from '../../assets/play-icon.svg';
 import { useLanguage } from "../../LanguageContext"; // Importar el contexto
 
 const AcercaDe = ({ setPlayState }) => {

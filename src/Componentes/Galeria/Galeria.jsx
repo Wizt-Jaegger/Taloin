@@ -8,7 +8,7 @@ import galeria_3 from '../../assets/gallery-3.png';
 import galeria_3_Extend from '../../assets/gallery-3-extend.png';
 import galeria_4 from '../../assets/gallery-4.png';
 import galeria_4_Extend from '../../assets/gallery-4-extend.png';
-import flechaBlanca from '../../assets/dark-arrow.png';
+import flechaBlanca from '../../assets/dark-arrow.svg';
 import { useLanguage } from "../../LanguageContext";
 
 const imageMap = {
